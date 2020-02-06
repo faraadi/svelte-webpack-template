@@ -18,11 +18,6 @@ module.exports = {
         extensions: ['.mjs', '.js', '.svelte'],
         mainFields: ['svelte', 'browser', 'module', 'main']
     },
-    output: {
-        path: __dirname + '/public',
-        filename: '[name].js',
-        chunkFilename: '[name].[id].js'
-    },
     devServer: {
         port: 3000,
         contentBase: publicPath,
