@@ -47,6 +47,7 @@ module.exports = {
                 test: /\.(png|svg|jpg|gif|woff|woff2|eot|ttf|otf)$/,
                 loader: 'file-loader',
                 options: {
+                    esModule: false,
                     name(fileName) {
                         if (fileName.match(/\.(png|svg|jpg|jpeg|gif)$/)) {
                             return "images/[name].[hash].[ext]";
