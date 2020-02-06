@@ -60,4 +60,4 @@ you'll find two file:
  - [Farhad Sharifi](https://twitter.com/faradivar)
 
 ## License
-This software is open sourced under MIT.
+This software is open sourced under [MIT](https://github.com/faraadi/svelte-webpack-template/blob/master/LICENSE).
