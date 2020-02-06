@@ -28,7 +28,7 @@ build your application and make a optimized and minified version of your code an
 <br>
 all assets in `public` folder will be copied in `dist` directory.
 
-<strong>Warning!</strong> all assets placed in `dist`, will be removed when running this script
+> <strong>Warning!</strong> all assets placed in `dist`, will be removed when running this script
 
 ### serve
 after running a successful build, you can run this script to preview a local version of your app.
@@ -58,3 +58,6 @@ you'll find two file:
 - Source Code Analyze Tool
 ## Author
  - [Farhad Sharifi](https://twitter.com/faradivar)
+
+## License
+This software is open sourced under MIT.
