@@ -69,7 +69,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(rootPath, 'public', "index.html"),
             templateParameters: {
-                'PUBLIC_URL': process.env.PUBLIC_URL
+                'PUBLIC_URL': process.env.PUBLIC_URL || "/"
             }
         }),
         new CleanWebpackPlugin(),

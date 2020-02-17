@@ -64,7 +64,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(publicPath, "index.html"),
             templateParameters: {
-                'PUBLIC_URL': process.env.PUBLIC_URL
+                'PUBLIC_URL': process.env.PUBLIC_URL || "/"
             }
         }),
         new DuplicatePackageCheckerPlugin(),
